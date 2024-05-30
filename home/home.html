@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <title>Rental Mobil</title>
+</head>
+<body>
+<header class="container max-w-full bg-red-900 fixed top-0 left-0 right-0 p-6" >
+    <div class="flex justify-around items-center text-white">
+        <p class="uppercase text-[35px]">rental mobil</p>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg xl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <nav  class="hidden w-full md:block md:w-auto" id="navbar-default" >    
+           <ul class="flex gap-8 uppercase text-[24px] flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li><a href="">mobil</a></li>
+            <li><a href="">transaksi</a></li>
+            <li><a href="">halo, jawir</a></li>
+            <li><a href=""></a>|</li>
+            <li><a href="">logout</a></li>
+           </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="flex justify-center">
+        <img src="/img/cars.jpg" alt="" class="w-screen h-[50rem] pb-20">
+    </div>
+    <section class="container mx-auto pb-20">
+        <p class="font-bold text-[35px] text-center">SILAHKAN PILIH MOBIL ANDA</p>
+        <div class="flex justify-center items-center gap-6">
+            <div class="border border-gray-600 bg-gray-600 w-[9rem] h-1"></div>
+            <img src="/img/icon.png" alt="" class="w-12">
+            <div class="border border-gray-600 bg-gray-600 w-[9rem] h-1"></div>
+        </div>
+        <p class="text-[14px] text-center py-6 text-gray-500">Pilihlah Mobil Terbaik Sesuai Kebutuhan Anda</p>
+    </section>
+    <div class="container mx-auto grid grid-cols-2 px-16 pb-16 gap-y-20">
+        <div class="flex justify-center">
+            <div class="border-2 border-gray-400 w-[35rem]">
+                <img src="/img/car kiri.png" alt="" class="w-full h-60 object-cover">
+                <div class="flex justify-between px-4 py-2">
+                    <p class="text-[18px] font-medium">TOYOTA AVANZA</p>
+                    <div class="flex items-center">
+                        <img src="/img/price.png" alt="" class="w-6">
+                        <p class="text-[11px] text-yellow-400">RP. 120.000/HARI</p>
+                    </div>
+                </div>
+                <section class="px-4">
+                    <p class="block text-[11px] font-bold text-gray-500">RENTAL MOBIL 99</p>
+                </section>
+                <div class="flex items-center px-4 py-4 gap-6">
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">AC</p>
+                    </div>
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">TV</p>
+                    </div>
+                    <div class="border border-gray-500 w-20 p-1">
+                        <p class="text-center text-[11px] font-medium">MP3 PLAYER</p>
+                    </div>
+                    <div class="border border-gray-500 w-28 p-1">
+                        <p class="text-center text-[11px] font-medium">CENTRAL LOCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="border-2 border-gray-400 w-[35rem]">
+                <img src="/img/car kanan.png" alt="" class="w-full h-60 object-cover">
+                <div class="flex justify-between px-4 py-2">
+                    <p class="text-[18px] font-medium">DAIHATSU XENIA</p>
+                    <div class="flex items-center">
+                        <img src="/img/price.png" alt="" class="w-6">
+                        <p class="text-[11px] text-yellow-400">RP. 150.000/HARI</p>
+                    </div>
+                </div>
+                <section class="px-4">
+                    <p class="block text-[11px] font-bold text-gray-500">RENTAL MOBIL 99</p>
+                </section>
+                <div class="flex items-center px-4 py-4 gap-6">
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">AC</p>
+                    </div>
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">TV</p>
+                    </div>
+                    <div class="border border-gray-500 w-20 p-1">
+                        <p class="text-center text-[11px] font-medium">MP3 PLAYER</p>
+                    </div>
+                    <div class="border border-gray-500 w-28 p-1">
+                        <p class="text-center text-[11px] font-medium">CENTRAL LOCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="border-2 border-gray-400 w-[35rem]">
+                <img src="/img/3.png" alt="" class="w-full h-60 object-cover">
+                <div class="flex justify-between px-4 py-2">
+                    <p class="text-[18px] font-medium">HYUNDAI CRETA</p>
+                    <div class="flex items-center">
+                        <img src="/img/price.png" alt="" class="w-6">
+                        <p class="text-[11px] text-yellow-400">RP. 150.000/HARI</p>
+                    </div>
+                </div>
+                <section class="px-4">
+                    <p class="block text-[11px] font-bold text-gray-500">RENTAL MOBIL 99</p>
+                </section>
+                <div class="flex items-center px-4 py-4 gap-6">
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">AC</p>
+                    </div>
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">TV</p>
+                    </div>
+                    <div class="border border-gray-500 w-20 p-1">
+                        <p class="text-center text-[11px] font-medium">MP3 PLAYER</p>
+                    </div>
+                    <div class="border border-gray-500 w-28 p-1">
+                        <p class="text-center text-[11px] font-medium">CENTRAL LOCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="flex justify-center">
+            <div class="border-2 border-gray-400 w-[35rem]">
+                <img src="/img/4.png" alt="" class="w-full h-60 object-cover">
+                <div class="flex justify-between px-4 py-2">
+                    <p class="text-[18px] font-medium">LEXUS LX</p>
+                    <div class="flex items-center">
+                        <img src="/img/price.png" alt="" class="w-6">
+                        <p class="text-[11px] text-yellow-400">RP. 150.000/HARI</p>
+                    </div>
+                </div>
+                <section class="px-4">
+                    <p class="block text-[11px] font-bold text-gray-500">RENTAL MOBIL 99</p>
+                </section>
+                <div class="flex items-center px-4 py-4 gap-6">
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">AC</p>
+                    </div>
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">TV</p>
+                    </div>
+                    <div class="border border-gray-500 w-20 p-1">
+                        <p class="text-center text-[11px] font-medium">MP3 PLAYER</p>
+                    </div>
+                    <div class="border border-gray-500 w-28 p-1">
+                        <p class="text-center text-[11px] font-medium">CENTRAL LOCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="flex justify-center">
+            <div class="border-2 border-gray-400 w-[35rem]">
+                <img src="/img/5.png" alt="" class="w-full h-60 object-cover">
+                <div class="flex justify-between px-4 py-2">
+                    <p class="text-[18px] font-medium">HONDA BRIO</p>
+                    <div class="flex items-center">
+                        <img src="/img/price.png" alt="" class="w-6">
+                        <p class="text-[11px] text-yellow-400">RP. 150.000/HARI</p>
+                    </div>
+                </div>
+                <section class="px-4">
+                    <p class="block text-[11px] font-bold text-gray-500">RENTAL MOBIL 99</p>
+                </section>
+                <div class="flex items-center px-4 py-4 gap-6">
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">AC</p>
+                    </div>
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">TV</p>
+                    </div>
+                    <div class="border border-gray-500 w-20 p-1">
+                        <p class="text-center text-[11px] font-medium">MP3 PLAYER</p>
+                    </div>
+                    <div class="border border-gray-500 w-28 p-1">
+                        <p class="text-center text-[11px] font-medium">CENTRAL LOCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="flex justify-center">
+            <div class="border-2 border-gray-400 w-[35rem]">
+                <img src="/img/6.png" alt="" class="w-full h-60 object-cover">
+                <div class="flex justify-between px-4 py-2">
+                    <p class="text-[18px] font-medium">HONDA CIVIC RS</p>
+                    <div class="flex items-center">
+                        <img src="/img/price.png" alt="" class="w-6">
+                        <p class="text-[11px] text-yellow-400">RP. 150.000/HARI</p>
+                    </div>
+                </div>
+                <section class="px-4">
+                    <p class="block text-[11px] font-bold text-gray-500">RENTAL MOBIL 99</p>
+                </section>
+                <div class="flex items-center px-4 py-4 gap-6">
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">AC</p>
+                    </div>
+                    <div class="border border-gray-500 w-12 p-1">
+                        <p class="text-center text-[11px] font-medium">TV</p>
+                    </div>
+                    <div class="border border-gray-500 w-20 p-1">
+                        <p class="text-center text-[11px] font-medium">MP3 PLAYER</p>
+                    </div>
+                    <div class="border border-gray-500 w-28 p-1">
+                        <p class="text-center text-[11px] font-medium">CENTRAL LOCK</p>
+                    </div>
+                </div>
+            </div>
+        </div>     
+            
+    </div>
+    
+</main>
+<footer class="bg-red-900 h-52">
+      <div class="left-20 top-8 py-4 ml-40">
+        <p class="text-[28px] font-bold text-white">CONTACT US</p>
+        <div class="flex items-center transform -translate-x-[5rem] translate-y-8 gap-16 pb-6 absolute">
+            <img src="/img/ig.png" alt="" class="w-8">
+            <img src="/img/fb.png" alt="" class="w-8">
+            <img src="/img/wa.png" alt="" class="w-8">
+            <img src="/img/tel.png" alt="" class="w-8">
+        </div>
+      </div>
+      <div class="-translate-y-8">
+        <p class="text-[28px] font-bold text-white text-center  ">RENTAL MOBIL 99</p>
+      </div>
+      <div class="text-right top-8 py-4 ml-40 -translate-y-[7rem] -translate-x-[11rem]">
+        <p class="text-[28px] font-bold text-white">ADDRESS</p>
+        <div class="text-[22px] text-white transform translate-x-[74rem] xl:translate-x-[2rem] 2xl:translate-x-[2rem] translate-y-8 gap-16 pb-6">
+                <p class="block">Jl. Margonda No.8,</p>
+                <p class="block">Depok, Jawa Barat</p>
+        </div>
+      </div>
+</footer>
+</body>
+</html>
